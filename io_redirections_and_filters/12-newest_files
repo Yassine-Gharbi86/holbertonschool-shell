@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in $(ls -1t | head -n 10); do echo "$file"; done
+ls -1t | head -10
